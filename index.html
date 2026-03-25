@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Game</title>
+    <link rel="stylesheet" href="simon.css">
+</head>
+
+<body>
+
+    <h1>Simon Game 🎮</h1>
+
+    <h2>Click Start to Play</h2>
+    <h3 id="highScore">High Score: 0</h3>
+
+    <p id="timer">Time: 0s</p>
+    <p id="accuracy">Accuracy: 100%</p>
+
+    <!-- Controls -->
+    <div class="controls">
+        <button id="start-btn">Start Game</button>
+
+        <select id="difficulty">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+        </select>
+
+         <label>
+            <input type="checkbox" id="practice"> Practice Mode
+        </label>
+
+    </div>
+
+    <!-- Game Buttons -->
+    <div class="btn-container">
+        <div class="btn red" id="red"></div>
+        <div class="btn green" id="green"></div>
+        <div class="btn yellow" id="yellow"></div>
+        <div class="btn blue" id="blue"></div>
+    </div>
+
+    <p class="footer">Test your memory skills 🚀</p>
+
+    <button id="mode-btn">🌙 Toggle Mode</button>
+
+    <script src="simon.js"></script>
+
+</body>
+</html>

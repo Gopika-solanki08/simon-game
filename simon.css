@@ -1,0 +1,176 @@
+body {
+    text-align: center;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #1e1e2f, #3a3a5a);
+    color: white;
+}
+
+/* Title */
+h1 {
+    margin-top: 20px;
+}
+
+/* Start Button */
+#start-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 15px;
+    background: #ffcc00;
+    transition: 0.2s;
+}
+
+#start-btn:hover {
+    background: #ffd633;
+}
+
+/* Game Container */
+.btn-container {
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Buttons */
+.btn {
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.1s, box-shadow 0.2s;
+    box-shadow: 0 0 15px rgba(234, 246, 54, 0.2);
+}
+
+/* Click Effect */
+.btn:active {
+    transform: scale(0.9);
+}
+
+/* Colors */
+.red { background: #ff4d4d; }
+.green { background: #4dff88; }
+.yellow { background: #ffff66; }
+.blue { background: #4da6ff; }
+
+/* Flash Effect */
+.flash {
+    background-color: white !important;
+}
+
+/* User Click Effect */
+.userflash {
+    opacity: 0.6;
+    transform: scale(0.95);
+}
+
+/* Game Over Effect */
+.game-over {
+    background-color: red !important;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+    .btn {
+        height: 100px;
+        width: 100px;
+    }
+
+    .btn-container {
+        grid-template-columns: repeat(2, 100px);
+    }
+}body {
+    text-align: center;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #1e1e2f, #3a3a5a);
+    color: white;
+    transition: 0.3s;
+}
+
+
+.dark {
+    background: #111;
+    color: white;
+}
+
+
+.controls {
+    margin: 15px;
+}
+
+button, select {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#timer, #accuracy {
+    margin: 5px;
+}
+
+/* main Grid Layout */
+.btn-container {
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn {
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(255,255,255,0.2);
+    transition: transform 0.1s;
+}
+
+.btn:active {
+    transform: scale(0.9);
+}
+
+/* Colors */
+.red { background: #ff4d4d; }
+.green { background: #4dff88; }
+.yellow { background: #ffff66; }
+.blue { background: #4da6ff; }
+
+/* Effects */
+.flash {
+    background-color: white !important;
+}
+
+.userflash {
+    opacity: 0.6;
+}
+
+
+.game-over {
+    background-color: red !important;
+}
+
+
+.footer {
+    margin-top: 20px;
+    opacity: 0.7;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+    .btn {
+        height: 100px;
+        width: 100px;
+    }
+
+    .btn-container {
+        grid-template-columns: repeat(2, 100px);
+    }
+}
