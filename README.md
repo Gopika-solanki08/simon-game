@@ -24,6 +24,10 @@ A dynamic and interactive Simon Game built using **HTML, CSS, and JavaScript**. 
 
 ---
 
+🚀 Live Demo
+
+🔗 https://gopika-solanki08.github.io/simon-game/
+
 ## 🎮 How to Play
 
 1. Click on **Start Game**
